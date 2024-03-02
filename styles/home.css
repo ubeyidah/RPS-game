@@ -34,3 +34,25 @@
 .main-header nav ul li:last-child a {
   margin-right: 10px;
 }
+
+/* hero */
+.hero {
+  margin: 90px 0;
+}
+
+.hero .container {
+  display: flex;
+
+}
+
+.hero .container div {
+  flex: 1;
+}
+
+.hero .container h1 {
+  width: 90%;
+}
+
+.hero .container p {
+  margin-bottom: 30px;
+}

@@ -21,6 +21,7 @@
   border-radius: 5px;
   cursor: pointer;
   box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  text-align: center;
 }
 
 .btn-primary {
@@ -28,12 +29,16 @@
   color: white !important;
 }
 
+.btn-lg {
+  padding: 10px 30px;
+}
+
 .btn-dark {
   background-color: var(--dark);
 }
 
 .btn-cercle {
-  border-radius: 50%;
+  border-radius: 50px;
 }
 
 .btn-block {
@@ -57,7 +62,7 @@
 .text-xl {
   font-size: 2.2rem;
   line-height: 1.4;
-  font-weight: normal;
+  font-weight: bold;
   margin: 30px 0 20px;
 }
 
