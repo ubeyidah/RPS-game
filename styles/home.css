@@ -1,0 +1,36 @@
+/* header */
+.main-header {
+  height: 56px;
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.main-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  padding: 10px 20px;
+}
+
+.main-header .container .logo img {
+  height: 28px;
+}
+
+.main-header nav ul {
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+}
+
+.main-header nav ul li a {
+  color: black;
+  transition: .3s;
+
+  &:hover {
+    color: rgba(255, 92, 0, 1);
+  }
+}
+
+.main-header nav ul li:last-child a {
+  margin-right: 10px;
+}
