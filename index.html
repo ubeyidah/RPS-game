@@ -22,9 +22,9 @@
       <!-- nav links -->
       <nav>
         <ul>
-          <li><a href="#">Game Rules</a></li>
-          <li><a href="#">Tips & Tricks</a></li>
-          <li><a href="#" class="btn btn-primary">Play</a></li>
+          <li><a href="#game-rule">Game Rules</a></li>
+          <li><a href="#rule">Tips & Tricks</a></li>
+          <li><a href="#cta" class="btn btn-primary">Play</a></li>
         </ul>
       </nav>
     </div>
@@ -37,7 +37,7 @@
           Experence the thrill of Rock Paper Scissors Game
         </h1>
         <p>Challeng the computer and test your luck in this classic game.</p>
-        <a href="#" class="btn btn-primary btn-lg btn-cercle">Get Started</a>
+        <a href="#cta" class="btn btn-primary btn-lg btn-cercle">Get Started</a>
       </div>
       <div>
         <img src="./images/hero.png" alt="">
@@ -46,7 +46,7 @@
   </section>
 
   <!-- basics -->
-  <section class="basics bg-dark">
+  <section class="basics bg-dark" id="game-rule">
     <div class="container flex">
       <div class="basics-img">
         <img src="./images/basics.png">
@@ -94,7 +94,7 @@
           strategic thinking and quick analysis. you'll sharpen your mind and learn to make better choices in various
           situations.
         </p>
-        <a href="#" class="btn btn-primary btn-lg">Play Now</a>
+        <a href="#cta" class="btn btn-primary btn-lg">Play Now</a>
       </div>
       <div class="flex-1">
         <img src="./images/unlock-decision.png" alt="">
@@ -103,7 +103,7 @@
   </section>
 
   <!-- rule sections -->
-  <section class="rule">
+  <section class="rule" id="rule">
     <div class="container">
       <div class="cards">
         <div class="card">
@@ -181,7 +181,7 @@
   </section>
 
   <!-- CTA -->
-  <section class="cta">
+  <section class="cta" id="cta">
     <div class="container-sm">
       <h2 class="text-center">Rock Paper Scissors Game</h2>
       <p class="text-center">There are two futures are avliable to help improve your skills and just for fun.</p>
@@ -218,7 +218,7 @@
           <h4>How to play?</h4>
           <div class="close-btn">&plus;</div>
         </div>
-        <div class="faq-group-body open">
+        <div class="faq-group-body">
           <p>To play the game, simply choose between rock, paper, or scissors. Rock beats paper and paper beats rock.
             The player with the winning choice scores a point.
           </p>
@@ -248,6 +248,18 @@
             To win the game yor need score more points than your opponent. Each time you win a round by choosing the
             winning option. you earn a point. The player with the highest score at the end of the game is the winner.
           </p>
+          <p>
+            If you want to win, you need to be a good psychologist to predict the next choice of your opponent. There
+            are many strategies and different people have different patterns of behavoir.
+
+          </p>
+          <p>But if you follow this advice you will win in most cases. If your last choice was ...
+
+            Rock, then choose Scissors in the next round
+            ... Scissors, then choose Paper in the next round
+            ... Paper, then choose Rock in the next round
+            it will work only with not experienced players. The strategy is based on experiments of Zhejiang University
+          </p>
         </div>
       </div>
 
@@ -276,6 +288,26 @@
         </div>
       </div>
 
+      <div class="faq-group">
+        <div class="faq-group-header">
+          <h4>Interesting facts about RPS game</h4>
+          <div class="close-btn">&plus;</div>
+        </div>
+        <div class="faq-group-body">
+          <p>
+            Did you know that this game first appeared in China in the 17th century? Yes, it was not invented in Europe
+            or America but in Asia. Europe started to play this game only in 19th century.
+          </p>
+          <p>
+            Statistics say that people usually choose Scissors in the first round and Rock in the second.
+          </p>
+          <p>
+            There is a robot developed in japan which wins with 100% chance. it analyzes movement of your hand muscles
+            to predict which choice you'll show.
+          </p>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -287,6 +319,8 @@
           alt="github"></a>
     </div>
   </footer>
+
+  <script src="./scripts/home.js"></script>
 </body>
 
 </html>

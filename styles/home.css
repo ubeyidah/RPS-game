@@ -1,12 +1,18 @@
 /* header */
 .main-header {
   height: 56px;
-  /* border-bottom: 1px solid rgb(220, 220, 220); */
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 100;
+}
+
+/* use js applie */
+.on-scroll {
+  border-bottom: 1px solid rgb(220, 220, 220);
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 }
 
 .main-header .container {
@@ -188,6 +194,7 @@
   padding: 8px 22px;
   margin-bottom: 10px;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .faq .container .faq-group .faq-group-header {
