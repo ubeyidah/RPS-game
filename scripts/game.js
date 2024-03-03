@@ -88,7 +88,7 @@ function pickComputerMove() {
 
 function updateResult(computerMove = '', result = '', round = 0) {
   document.querySelector('.js-computer-move')
-    .innerHTML = computerMove ? `<img src="../../icons/${computerMove}-emoji.png" alt="result">` : '';
+    .innerHTML = computerMove ? `<img src="./../icons/${computerMove}-emoji.png" alt="result">` : '';
   document.querySelector('.js-result')
     .textContent = result;
   document.querySelector('.js-round-display')
