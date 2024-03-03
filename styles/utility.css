@@ -102,11 +102,34 @@
 }
 
 .bg-dark {
-  background: var(--dark-color);
+  background: #111111;
   color: white;
 }
 
 .bg-black {
   background: #000;
   color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.card {
+  padding: 18px;
+  background-color: #ffffff26;
+  border-radius: 10px;
+  flex: 1;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, .2);
+  backdrop-filter: blur(4px);
+  transition: rotate .6s;
+}
+
+.card:hover {
+  box-shadow: 2px 3px 7px rgba(0, 0, 0, .3);
+  rotate: 1deg;
+}
+
+.flex-1 {
+  flex: 1;
 }
