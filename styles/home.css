@@ -153,11 +153,11 @@
 
 /* cta */
 .cta {
-  height: 60vh;
+  height: 80vh;
   background: url(../images/basics-bg.jpg) no-repeat;
   background-size: cover;
   color: white;
-  padding: 4% 0;
+  padding: 7% 0;
 }
 
 .cta .cards {

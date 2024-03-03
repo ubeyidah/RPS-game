@@ -1,0 +1,116 @@
+/* game borde */
+
+.game-bord {
+  background: url(../images/beams-pricing.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.game-bord .container h2 {
+  background: -webkit-linear-gradient(rgba(225, 10, 178, 1), rgba(255, 92, 0, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 20px;
+}
+
+.game-bord .container .game-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.game-bord .container .game-container .game-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.scores {
+  display: flex;
+  font-size: 30px;
+  gap: 20px;
+}
+
+.scores .score {
+  opacity: .3;
+}
+
+.game-bord .buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.game-bord .buttons button {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 9px;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  width: 132px;
+  height: 136px;
+}
+
+.game-bord .buttons button img {
+  height: 110px;
+}
+
+.game-bord .game-grid h3 {
+  margin-top: 30px;
+}
+
+.game-bord .container p {
+  margin-top: 40px;
+}
+
+.game-bord .container .scores .rate {
+  opacity: 1;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, .3);
+}
+
+.game-bord .container .buttons .active-btn {
+  border-color: rgba(225, 10, 178, 1);
+}
+
+/* game over */
+.game-over {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 26px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  right: 0;
+  background: url(../images/beams-pricing.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.is-game-over {
+  display: flex;
+}
+
+.game-over img {
+  height: 120px;
+  width: 120px;
+}
+
+.ratio {
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.ud {
+  text-decoration: underline;
+  font-size: 16px;
+}

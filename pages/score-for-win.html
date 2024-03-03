@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors Game | play</title>
+
+  <link rel="stylesheet" href="./../styles/general.css">
+  <link rel="stylesheet" href="./../styles/utility.css">
+  <link rel="stylesheet" href="./../styles/scor-for-win.css">
+  <link rel="icon" href="./../icons/RPSlogo.png">
+</head>
+
+<body>
+  <section class="game-bord">
+    <div class="container">
+
+      <h2 class="text-xxl text-center js-round-display">ROUND 0</h2>
+
+      <div class="game-container">
+        <div class="game-grid">
+          <h1 class="text-xl">YOU SCORE</h1>
+          <div class="scores">
+            <div class="score js-player-score-display">⭐</div>
+            <div class="score js-player-score-display">⭐</div>
+            <div class="score js-player-score-display">⭐</div>
+          </div>
+          <div class="buttons">
+            <button title="rock" class="js-rock-btn js-game-btns ">
+              <img src="../../icons/rock-emoji.png" alt="rock">
+            </button>
+            <button title="paper" class="js-paper-btn js-game-btns">
+              <img src="../../icons/paper-emoji.png" alt="paper">
+            </button>
+            <button title="scissorsprrr" class="js-scissors-btn js-game-btns">
+              <img src="../../icons/scissors-emoji.png" alt="scissors">
+            </button>
+          </div>
+          <h3 class="text-lg">Pick Your Move</h3>
+        </div>
+
+        <div class="game-grid">
+          <h1 class="text-xl">OPPONENT'S SCORE</h1>
+          <div class="scores">
+            <div class="score  js-computer-score-display">⭐</div>
+            <div class="score  js-computer-score-display">⭐</div>
+            <div class="score  js-computer-score-display">⭐</div>
+          </div>
+          <div class="buttons">
+            <button class="js-computer-move">
+            </button>
+          </div>
+          <h3 class="text-lg">Computer Move</h3>
+        </div>
+      </div>
+      <p class="text-lg text-center js-result"></p>
+
+    </div>
+  </section>
+
+  <!-- game over section -->
+  <section class="js-game-over-container game-over">
+    <img src="../../icons/high-score.png" alt="high score">
+    <h1 class=" js-score-ratio ratio"></h1>
+    <h1 class="js-winner ratio"></h1>
+    <button class="btn btn-primary btn-lg js-play-btn">PLAY AGAIN</button>
+    <a href="../../index.html" class="text-sm ud">BACK TO HOME PAGE</a>
+  </section>
+
+
+  <script src="../../scripts/game.js"></script>
+
+</body>
+
+</html>
