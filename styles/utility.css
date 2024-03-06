@@ -22,6 +22,7 @@
   cursor: pointer;
   box-shadow: 0 0 10px rgba(0, 0, 0, .2);
   text-align: center;
+  font-size: 17px;
 }
 
 .btn-primary {
@@ -34,7 +35,13 @@
 }
 
 .btn-dark {
-  background-color: var(--dark);
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.btn-blue {
+  background-color: rgb(0, 132, 255);
+  color: white;
 }
 
 .btn-cercle {
@@ -47,7 +54,6 @@
 }
 
 .btn:hover {
-  color: rgb(0, 0, 0);
   opacity: .8;
 }
 
@@ -77,7 +83,7 @@
   font-size: 1.2rem;
   line-height: 1.2;
   font-weight: normal;
-  margin: 20px 0 10px;
+  margin: 10px 0;
 }
 
 .text-sm {
@@ -132,4 +138,8 @@
 
 .flex-1 {
   flex: 1;
+}
+
+.relative {
+  position: relative;
 }

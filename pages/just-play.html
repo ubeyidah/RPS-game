@@ -6,17 +6,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rock Paper Scissors Game | play</title>
 
-  <link rel="stylesheet" href="../styles/general.css">
-  <link rel="stylesheet" href="../styles/utility.css">
-  <link rel="icon" href="../icons/RPSlogo.png">
+  <link rel="stylesheet" href="./../styles/general.css">
+  <link rel="stylesheet" href="./../styles/utility.css">
+  <link rel="stylesheet" href="./../styles/just-play.css">
+  <link rel="icon" href="./../icons/RPSlogo.png">
 </head>
 
 <body>
-  <p class="text-xxl text-center">I'm working on this future!</p>
-  <p class="text-xl text-center">Once I finished I will update.</p>
-  <div class="container-sm">
-    <a href="../index.html" class="btn btn-primary btn-block ">Go Back</a>
-  </div>
+  <!-- welcome screen -->
+  <section class="welcome">
+    <div class="app-box">
+      <h3 class="text-xl text-center">Welcome Back</h3>
+      <p>press "Continue" to continue with the previous scores</p>
+      <p>press "new game" to reset scores </p>
+      <a href="../index.html">Back to Home Page </a>
+      <div class="buttons">
+        <button class="js-continue btn btn-primary btn-lg">Continue</button>
+        <button class="js-new-game btn btn-primary btn-lg">New Game</button>
+      </div>
+    </div>
+  </section>
+  <!-- game -->
+  <section class="game">
+    <div class="container-sm">
+      <h1 class="text-xl text-center">Pick Your Move</h1>
+      <div class="buttons">
+        <button class="js-rock-btn btn-p">
+          <img src="./../icons/rock-emoji.png">
+        </button>
+        <button class="js-paper-btn btn-p">
+          <img src="./../icons/paper-emoji.png">
+        </button>
+        <button class="js-scissors-btn btn-p">
+          <img src="./../icons/scissors-emoji.png">
+        </button>
+      </div>
+      <p class="text-md js-move move"></p>
+      <p class="text-md js-result"></p>
+      <div class="js-scores score text-md">
+        Win: 3, Losses: 0, Tie: 6
+      </div>
+      <div class="action-btn js-action-btns relative">
+        <button class="btn btn-primary text-md js-reset-btn">Reset Scores</button>
+        <button class="btn btn-primary text-md js-auto-play-btn">Auto Play</button>
+        <div class="ask">
+          <p>Are you sure do you want to reset?</p>
+          <div>
+            <button class="btn btn-dark js-no-btn">No</button>
+            <button class="btn btn-blue js-yes-btn">Yes</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <script src="../scripts/just-play.js"></script>
+
 </body>
 
 </html>
