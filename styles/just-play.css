@@ -102,7 +102,7 @@
   justify-content: center;
   z-index: 400;
   background: #000000e3;
-
+  padding: 0 20px;
 }
 
 .is-new {
@@ -131,4 +131,43 @@
 
 .app-box .buttons button:last-child {
   margin-left: 50px;
+}
+
+@media (max-width: 550px) {
+  .welcome .app-box .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .app-box .buttons button:last-child {
+    margin-left: 0px;
+  }
+
+  .app-box .buttons button {
+    margin-top: 6px;
+  }
+
+  .app-box h3 {
+    font-size: 30px;
+  }
+
+  .app-box {
+    padding: 40px 30px;
+  }
+
+  .app-box p {
+    font-size: 15px;
+  }
+}
+
+@media(max-width: 500px) {
+  .game .container-sm .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .game h1 {
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
 }
